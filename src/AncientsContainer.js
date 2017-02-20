@@ -112,7 +112,7 @@ export default class AncientsContainer extends React.Component {
 
     return (
       <div id="ancient-list">
-        <h2 className="title">Ancients</h1>
+        <h2 className="title">Ancients</h2>
         {(errorMessage) ? <p className="text-danger">{errorMessage}</p> : null}
         <SearchEndpoint
           doSearch={this.doSearch}
